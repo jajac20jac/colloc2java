@@ -46,8 +46,8 @@ public class Phone {
             this.RAM=ram;
         }
 
-        public PhoneBuilder setGraphicsCardEnabled(boolean isGraphicsCardEnabled) {
-            this.isWifiEnabled = isGraphicsCardEnabled;
+        public PhoneBuilder setWifiEnabled(boolean isWifiEnabled) {
+            this.isWifiEnabled = isWifiEnabled;
             return this;
         }
 
